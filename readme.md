@@ -32,7 +32,7 @@ You are on a safari working for Geographic National, No. 1 distributor of animal
 
 **Bonus:**
 - Add a fox to your list of animals, and add a [fox call](https://www.youtube.com/watch?v=jofNR_WkoCE)
-- [Implement talk to text](https://developer.android.com/reference/android/speech/tts/TextToSpeech.html) when the animal's picture is clicked
+- [Implement text to talk](https://developer.android.com/reference/android/speech/tts/TextToSpeech.html) when the animal's picture is clicked
 - [Move to a new activity](https://bradzzz.gitbooks.io/android-sea/content/03-activities-views/02-intent-to-goto-activity.html) to view an animal's information when it's button is clicked
 - [Implement serializable](https://www.javacodegeeks.com/2014/01/android-tutorial-two-methods-of-passing-object-by-intent-serializableparcelable.html) when passing information between activities
 
