@@ -12,13 +12,7 @@ competencies: Classes and Subclasses
 
 ## Introduction
 
-You, adventurer, are on a safari working for Geographic National; No. 1 distributor of animal pictures and information in Canada's second biggest province, Manitoba.
-
-In your travels, you have managed to track, tag, and record dozens of animals in the wild. 
-
-Unfortunately, for science, a rainstorm hit your jeep as you were travelling down the streets of Nairobi, ruining the awesome new app you just wrote to show off your animal knowledge. 
-
-Can you piece the app back together in time?
+You, adventurer, are on a safari working for Geographic National; No. 1 distributor of animal pictures and information in Canada's second biggest province, Manitoba. In your travels, you have managed to track, tag, and record dozens of animals in the wild. Unfortunately, for science, a rainstorm hit your jeep as you were travelling down the streets of Nairobi, ruining the awesome new app you just wrote to show off your animal knowledge. Can you piece the app back together in time?
 
 
 ## Exercise
@@ -50,7 +44,7 @@ There is no starter code for this lab.
 
 An Android app that meets the requirements above.
 
-#### Why not try out this code for the tts
+#### Why not try out this code for the tts(Talk To Speech)?:
 
 ```java
 public class MainActivity extends AppCompatActivity {
