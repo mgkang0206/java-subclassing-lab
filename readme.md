@@ -44,7 +44,7 @@ There is no starter code for this lab.
 
 An Android app that meets the requirements above.
 
-#### Why not try out this code for the tts(Talk To Speech)?:
+#### Why not try out this code for the text to speech?:
 
 ```java
 public class MainActivity extends AppCompatActivity {
