@@ -12,7 +12,7 @@ competencies: Classes and Subclasses
 
 ## Introduction
 
-You, adventurer, are on a safari working for Geographic National; No. 1 distributor of animal pictures and information in Canada's second biggest province, Manitoba. In your travels, you have managed to track, tag, and record dozens of animals in the wild. Unfortunately, for science, a rainstorm hit your jeep as you were travelling down the streets of Nairobi, ruining the awesome new app you just wrote to show off your animal knowledge. Can you piece the app back together in time?
+You are on a safari working for Geographic National, No. 1 distributor of animal pictures and information in Canada's second biggest province, Manitoba. In your travels, you have managed to track, tag, and record dozens of animals in the wild. Unfortunately, for science, a rainstorm hit your jeep as you were travelling down the streets of Nairobi, ruining the awesome new app you just wrote to show off your animal knowledge. Can you piece the app back together in time?
 
 
 ## Exercise
