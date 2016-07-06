@@ -7,17 +7,18 @@
 
 | Requirements | Incomplete (0) | Does Not Meet Expectations (1) | Meets Expectations (2)
 |---|---|---|---|---|
-|Create an Animal class with the following properties set in the constructor: mNumLegs, mTopSpeed, mIsEndangered, mName. | | | |
-|Create subclasses of Animal called Mammal and Reptile | | | |
-|Create at least one subclass of Mammal, and one subclass of Reptile | | | |
-|Each subclass must have something that makes it unique from its parent class. | | | |
-|Create an Android app that allows the user to add each of your unique animals, and have them shown in a ListView | | | |
+|Create an Animal class with the following properties set in the constructor: animalName, animalID, animalCall, animalPicture. | | | |
+|Create subclasses of Animal called Bird, Reptile, and Mammal | | | |
+|Create at least two subclasses of Bird, Reptile, and Mammal classes | | | |
+|Each subclass must have something that makes it unique from its parent class | | | |
+|Create an Android app | | | |
 
 | Bonus | Complete |
 |---|---|
-|Create more than the minimum number of mammal or reptile subclasses | |
-| When the user clicks on a list item, it takes them to a details screen for the animal, showing all of its properties | |
-
+| Show what a fox says | |
+| Text to talk | |
+| Move to new activity | |
+| Parcelable | |
 
 Notes:
 
