@@ -14,7 +14,7 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
   TextToSpeech ttobj;
-  Button eagle,kiwi,komodo,anaconda,kangaroo,human,call,speak;
+  Button eagle,kiwi,komodo,anaconda,kangaroo,human,call,fox;
   ImageView picture;
   TextView name,id;
 
@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
     name = (TextView) findViewById(R.id.nameBox);
     id = (TextView) findViewById(R.id.idBox);
     call = (Button) findViewById(R.id.callButton);
+    fox = (Button) findViewById(R.id.foxButton);
 
     ttobj = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
       @Override
@@ -58,6 +59,29 @@ public class MainActivity extends AppCompatActivity {
               case MotionEvent.ACTION_UP:
                 ttobj.setSpeechRate(1f);
                 ttobj.speak("America", TextToSpeech.QUEUE_ADD, null, "123ABC");
+                break;
+            }
+            return false;
+          }
+        });
+      }
+    });
+    fox.setOnClickListener(new View.OnClickListener(){
+      @Override
+      public void onClick(View view){
+        picture.setImageResource(R.drawable.fox);
+        name.setText("Megan Fox");
+        id.setText("fox0001");
+        call.setOnTouchListener(new View.OnTouchListener() {
+          public boolean onTouch(View v, MotionEvent event) {
+            switch(event.getAction()) {
+              case MotionEvent.ACTION_DOWN:
+                Toast.makeText(getApplicationContext(), "Sexy",
+                  Toast.LENGTH_SHORT).show();
+                break;
+              case MotionEvent.ACTION_UP:
+                ttobj.setSpeechRate(1f);
+                ttobj.speak("Sexy", TextToSpeech.QUEUE_ADD, null, "123ABC");
                 break;
             }
             return false;
