@@ -6,6 +6,21 @@ package com.example.mgkan.subclass;
 public class Kangaroo extends Mammal {
   boolean standsWithTail = true;
   public Kangaroo(String name,String call,String picture,String id) {
-    super("kangaroo", "Punch Punch Kick Kick", "@drawable/kangaroo.jpeg", "kan0001");
+    super("kangaroo", "Punch Punch Kick Kick", "kangaroo", "kan0001");
+  }
+  public String getAnimalName() {
+    return super.getAnimalName();
+  }
+
+  public String getAnimalId() {
+    return super.getAnimalId();
+  }
+
+  public String getAnimalPicture() {
+    return super.getAnimalPicture();
+  }
+
+  public String getAnimalCall() {
+    return super.getAnimalCall();
   }
 }

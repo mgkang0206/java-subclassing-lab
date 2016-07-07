@@ -6,6 +6,21 @@ package com.example.mgkan.subclass;
 public class Human extends Mammal{
   boolean wearHats = true;
   public Human(String name,String call,String picture,String id) {
-    super("human", "That's not a knife", "@drawable/human.jpg", "hum0001");
+    super("human", "That's not a knife", "human", "hum0001");
+  }
+  public String getAnimalName() {
+    return super.getAnimalName();
+  }
+
+  public String getAnimalId() {
+    return super.getAnimalId();
+  }
+
+  public String getAnimalPicture() {
+    return super.getAnimalPicture();
+  }
+
+  public String getAnimalCall() {
+    return super.getAnimalCall();
   }
 }

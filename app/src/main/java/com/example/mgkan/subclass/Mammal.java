@@ -12,4 +12,19 @@ public class Mammal extends Animal {
   public String layEgg(){
     return (getAnimalName()+" is giving birth");
   }
+  public String getAnimalName() {
+    return super.getAnimalName();
+  }
+
+  public String getAnimalId() {
+    return super.getAnimalId();
+  }
+
+  public String getAnimalPicture() {
+    return super.getAnimalPicture();
+  }
+
+  public String getAnimalCall() {
+    return super.getAnimalCall();
+  }
 }

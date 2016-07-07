@@ -8,5 +8,20 @@ public class Bird extends Animal {
   public Bird(String name, String call, String picture, String id) {
     super(name,call,picture,id);
   }
+  public String getAnimalName() {
+    return super.getAnimalName();
+  }
+
+  public String getAnimalId() {
+    return super.getAnimalId();
+  }
+
+  public String getAnimalPicture() {
+    return super.getAnimalPicture();
+  }
+
+  public String getAnimalCall() {
+    return super.getAnimalCall();
+  }
 
 }
