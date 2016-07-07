@@ -8,5 +8,5 @@ public class Bird extends Animal {
   public Bird(String name, String call, String picture, String id) {
     super(name,call,picture,id);
   }
-  public 
+
 }

@@ -22,7 +22,7 @@
             android:layout_height="fill_parent"
             android:id="@+id/picture"
             android:src="@drawable/animal"
-            android:scaleType="fitXY"/>
+            android:scaleType="fitCenter"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -31,7 +31,7 @@
             android:id="@+id/idBox"
             android:layout_gravity="center_horizontal|bottom"
             android:gravity="center_horizontal|bottom"
-            android:textColor="#ffffff"
+            android:textColor="@color/colorAccent"
             android:textSize="30sp"
             android:textStyle="bold"/>
 
@@ -42,7 +42,7 @@
             android:id="@+id/nameBox"
             android:gravity="center_horizontal|top"
             android:layout_gravity="center_horizontal|top"
-            android:textColor="#ffffff"
+            android:textColor="@color/colorAccent"
             android:textSize="40sp"
             android:textStyle="bold"/>
 
@@ -53,59 +53,66 @@
             android:background="@android:color/transparent"/>
     </FrameLayout>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Eagle"
-        android:id="@+id/eagleButton"
-        android:layout_gravity="bottom"
-        android:layout_alignParentBottom="true"
-        android:layout_alignEnd="@+id/komodoButton"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/frameLayout"
+        android:layout_alignParentStart="true">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Kiwi"
-        android:id="@+id/kiwiButton"
-        android:layout_gravity="center_horizontal|bottom"
-        android:layout_alignTop="@+id/anacondaButton"
-        android:layout_alignParentStart="true"/>
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Human"
+            android:id="@+id/humanButton"
+            android:layout_gravity="right|bottom"
+            android:layout_alignTop="@+id/kangarooButton"
+            android:layout_alignStart="@+id/frameLayout"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="K.Dragon"
-        android:id="@+id/komodoButton"
-        android:layout_alignTop="@+id/kiwiButton"
-        android:layout_alignParentEnd="true"/>
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Eagle"
+            android:id="@+id/eagleButton"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_alignEnd="@+id/komodoButton"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Human"
-        android:id="@+id/humanButton"
-        android:layout_gravity="left|bottom"
-        android:layout_alignTop="@+id/kangarooButton"
-        android:layout_alignStart="@+id/frameLayout"/>
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Kiwi"
+            android:id="@+id/kiwiButton"
+            android:layout_gravity="center"
+            android:layout_alignTop="@+id/anacondaButton"
+            android:layout_alignParentStart="true"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Kangaroo"
-        android:id="@+id/kangarooButton"
-        android:layout_gravity="center_horizontal|bottom"
-        android:layout_below="@+id/anacondaButton"
-        android:layout_centerHorizontal="true"/>
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Anaconda"
+            android:id="@+id/anacondaButton"
+            android:layout_gravity="left|bottom"
+            android:layout_above="@+id/eagleButton"
+            android:layout_alignEnd="@+id/kangarooButton"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Anaconda"
-        android:id="@+id/anacondaButton"
-        android:layout_gravity="right|bottom"
-        android:layout_marginBottom="35dp"
-        android:layout_above="@+id/eagleButton"
-        android:layout_alignEnd="@+id/kangarooButton"/>
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Kangaroo"
+            android:id="@+id/kangarooButton"
+            android:layout_gravity="left|center_vertical"
+            android:layout_below="@+id/anacondaButton"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="K.Dragon"
+            android:id="@+id/komodoButton"
+            android:layout_alignTop="@+id/kiwiButton"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="right|center_vertical"/>
+    </FrameLayout>
 
 
 </RelativeLayout>
