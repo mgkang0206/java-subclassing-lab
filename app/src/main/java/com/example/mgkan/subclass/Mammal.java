@@ -10,6 +10,6 @@ public class Mammal extends Animal {
   }
   @Override
   public String layEgg(){
-    return (animalName+" is giving birth");
+    return (getAnimalName()+" is giving birth");
   }
 }
