@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mgkan.subclass.MainActivity"
+    android:background="@android:color/holo_orange_light">
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/frameLayout">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/picture"
+            android:src="@drawable/animal"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Press A Button"
+            android:id="@+id/idBox"
+            android:layout_gravity="center_horizontal|bottom"
+            android:gravity="center_horizontal|bottom"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:id="@+id/nameBox"
+            android:gravity="center_horizontal|top"
+            android:layout_gravity="center_horizontal|top"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/callButton"
+            android:background="@android:color/transparent"/>
+    </FrameLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eagle"
+        android:id="@+id/eagleButton"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/komodoButton"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kiwi"
+        android:id="@+id/kiwiButton"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_alignTop="@+id/anacondaButton"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="K.Dragon"
+        android:id="@+id/komodoButton"
+        android:layout_alignTop="@+id/kiwiButton"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Human"
+        android:id="@+id/humanButton"
+        android:layout_gravity="left|bottom"
+        android:layout_alignTop="@+id/kangarooButton"
+        android:layout_alignStart="@+id/frameLayout"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kangaroo"
+        android:id="@+id/kangarooButton"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_below="@+id/anacondaButton"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anaconda"
+        android:id="@+id/anacondaButton"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="35dp"
+        android:layout_above="@+id/eagleButton"
+        android:layout_alignEnd="@+id/kangarooButton"/>
+
+
+</RelativeLayout>
